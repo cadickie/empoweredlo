@@ -245,8 +245,7 @@ export default function Home() {
     </div>
   </div>
 </div>
-        </div>
-      </section>
+              </section>
 
       <section style={{ padding: "34px 0 10px" }}>
         <div style={sectionStyle}>
