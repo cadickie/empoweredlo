@@ -21,17 +21,19 @@ export default function Home() {
     boxShadow: "0 14px 40px rgba(15, 23, 42, 0.22)",
   };
 
-  const buttonPrimary = {
-    display: "inline-block",
-    background: "#111827",
-    color: "#ffffff",
-    padding: "14px 22px",
-    borderRadius: "12px",
-    textDecoration: "none",
-    fontWeight: 600,
-    marginRight: "12px",
-    marginBottom: "12px",
-  };
+ const buttonPrimary = {
+  display: "inline-block",
+  background: "rgba(255,255,255,0.10)",
+  color: "#ffffff",
+  padding: "14px 22px",
+  borderRadius: "12px",
+  textDecoration: "none",
+  fontWeight: 600,
+  border: "1px solid rgba(255,255,255,0.18)",
+  backdropFilter: "blur(6px)",
+  marginRight: "12px",
+  marginBottom: "12px",
+};
 
   const buttonSecondary = {
     display: "inline-block",
@@ -118,7 +120,7 @@ export default function Home() {
       marginBottom: "22px",
     }}
   >
-    Built to create empowered loan officers
+    Become an Empowered Loan Officer
   </div>
 
   <h1
@@ -189,13 +191,13 @@ export default function Home() {
     </a>
   </div>
 
-  <div
-    style={{
-      display: "grid",
-      gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-      gap: "16px",
-    }}
-  >
+ <div
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
+    gap: "16px",
+  }}
+>
     <div
       style={{
         background: "rgba(255,255,255,0.08)",
