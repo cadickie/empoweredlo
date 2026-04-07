@@ -191,7 +191,7 @@ export default function Home() {
     </a>
   </div>
 
- <div
+<div
   style={{
     display: "grid",
     gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
@@ -227,7 +227,8 @@ export default function Home() {
     </div>
     <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
       Go where the business is. No territory holding you back.
-  
+    </div>
+  </div>
 
   <div
     style={{
