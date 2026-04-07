@@ -227,6 +227,8 @@ export default function Home() {
         Go where the business is. No territory holding you back.
       </div>
     </div>
+  </div>
+    </div>
 
     <div
       style={{
