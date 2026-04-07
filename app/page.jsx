@@ -123,7 +123,9 @@ export default function Home() {
             >
               The right platform doesn’t just support you. It changes what you’re capable of.
             </p>
-
+<p style={{ color: "rgba(255,255,255,0.6)", fontSize: "15px" }}>
+  Supporting loan officers across 48 states with direct access to underwriting and proprietary non QM products.
+</p>
             <div
               style={{
                 display: "flex",
