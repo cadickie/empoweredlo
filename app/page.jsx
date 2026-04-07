@@ -149,12 +149,12 @@ export default function Home() {
             </div>
 
             <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
-                gap: "16px",
-              }}
-            >
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+    gap: "16px",
+  }}
+>
               <div
                 style={{
                   background: "rgba(255,255,255,0.08)",
@@ -171,14 +171,9 @@ export default function Home() {
                 </div>
               </div>
 
-              <div
-                style={{
-                  background: "rgba(255,255,255,0.08)",
-                  padding: "18px",
-                  borderRadius: "16px",
-                  border: "1px solid rgba(255,255,255,0.12)",
-                }}
-              >
+              <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
+  Go where the business is. No territory holding you back.
+</div>
                 <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
                   No territorial boundaries
                 </div>
