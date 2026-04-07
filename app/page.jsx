@@ -104,7 +104,7 @@ export default function Home() {
                 maxWidth: "760px",
               }}
             >
-              If you’re producing but feel capped, it’s not you. It’s your platform.
+               If you’re producing but feel capped, it’s not you. It’s your platform.
             </h1>
 
             <p
@@ -129,9 +129,17 @@ export default function Home() {
                 maxWidth: "700px",
               }}
             >
-              If something feels in the way, it usually is. Platform, geography, or how you’re being managed.
+              If something feels in the way, it usually is. Guidelines, pricing, territory, support, or slow decision making.
             </div>
-
+<div
+  style={{
+    fontSize: "18px",
+    color: "rgba(255,255,255,0.85)",
+    margin: "0 0 16px",
+  }}
+>
+  If that resonates, it’s worth a conversation.
+</div>
             <p
               style={{
                 color: "rgba(255,255,255,0.68)",
