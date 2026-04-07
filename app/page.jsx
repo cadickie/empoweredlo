@@ -108,15 +108,16 @@ export default function Home() {
     padding: "10px 16px",
     borderRadius: "999px",
     background: "rgba(255,255,255,0.06)",
-    border: "1px solid rgba(255,255,255,0.16)",
+    border: "1px solid rgba(255,255,255,0.18)",
     color: "#ffffff",
-    fontSize: "14px",
-    fontWeight: 500,
-    letterSpacing: "0.01em",
+    fontSize: "13px",
+    fontWeight: 600,
+    letterSpacing: "0.04em",
+    textTransform: "uppercase",
     marginBottom: "22px",
   }}
 >
-  EmpoweredLO
+  BUILT TO CREATE EMPOWERED LOAN OFFICERS
 </div>
 
             <h1
