@@ -99,7 +99,18 @@ export default function Home() {
             >
               If you're producing but feel capped, it's not you. It's your platform.
             </h1>
-
+<div
+  style={{
+    fontSize: "18px",
+    fontWeight: 500,
+    marginTop: "16px",
+    marginBottom: "16px",
+    color: "rgba(255,255,255,0.9)",
+    maxWidth: "640px"
+  }}
+>
+  The right platform doesn’t just support you. It changes what you’re capable of.
+</div>
             <p
               style={{
                 fontSize: "21px",
