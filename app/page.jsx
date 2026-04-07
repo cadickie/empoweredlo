@@ -144,13 +144,13 @@ export default function Home() {
               If you're producing but feel limited by your platform, your geography, or how you're being managed, it's worth a conversation.
             </p>
 
-           <p
+          <p
   style={{
     maxWidth: "760px",
-    margin: "0 auto 28px",
-    color: "#475569",
-    lineHeight: 1.8,
-    fontSize: "18px",
+    margin: "12px auto 32px",
+    color: "rgba(255,255,255,0.75)",
+    lineHeight: 1.7,
+    fontSize: "17px",
   }}
 >
   The right platform doesn’t just support you. It changes what you’re capable of.
