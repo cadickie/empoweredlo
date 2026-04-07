@@ -407,7 +407,7 @@ export default function Home() {
                   Leaders who want to build beyond geographic limits.
                 </p>
                 <p style={{ margin: 0, lineHeight: 1.75, color: "#334155" }}>
-                  People who value support, but don’t want to be managed.
+                  People who value support, but don’t want to be micromanaged.
                 </p>
               </div>
             </div>
