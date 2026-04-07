@@ -63,6 +63,36 @@ export default function Home() {
         background: "#f8fafc",
       }}
     >
+      <div
+  style={{
+    position: "sticky",
+    top: "14px",
+    zIndex: 1000,
+    display: "flex",
+    justifyContent: "flex-end",
+    padding: "14px 24px 0",
+    pointerEvents: "none",
+  }}
+>
+  <a
+    href="https://calendly.com/chrisdickie-changemortgage"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={{
+      background: "#0f172a",
+      color: "#ffffff",
+      textDecoration: "none",
+      fontWeight: 600,
+      padding: "12px 18px",
+      borderRadius: "999px",
+      boxShadow: "0 10px 24px rgba(15, 23, 42, 0.22)",
+      border: "1px solid rgba(255,255,255,0.12)",
+      pointerEvents: "auto",
+    }}
+  >
+    Schedule a confidential conversation
+  </a>
+</div>
       <section
         style={{
           background: "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
@@ -73,18 +103,21 @@ export default function Home() {
         <div style={sectionStyle}>
           <div style={{ maxWidth: "820px" }}>
             <div
-              style={{
-                display: "inline-block",
-                padding: "8px 14px",
-                borderRadius: "999px",
-                background: "rgba(255,255,255,0.10)",
-                border: "1px solid rgba(255,255,255,0.14)",
-                fontSize: "14px",
-                marginBottom: "22px",
-              }}
-            >
-              EmpoweredLO
-            </div>
+  style={{
+    display: "inline-block",
+    padding: "10px 16px",
+    borderRadius: "999px",
+    background: "rgba(255,255,255,0.06)",
+    border: "1px solid rgba(255,255,255,0.16)",
+    color: "#ffffff",
+    fontSize: "14px",
+    fontWeight: 500,
+    letterSpacing: "0.01em",
+    marginBottom: "22px",
+  }}
+>
+  EmpoweredLO
+</div>
 
             <h1
               style={{
