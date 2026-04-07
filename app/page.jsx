@@ -95,7 +95,7 @@ export default function Home() {
                 maxWidth: "780px",
               }}
             >
-              Built for loan officers who want autonomy, real access, and the ability to grow without limits.
+              Built for loan officers who want autonomy and the ability to grow without limits.
             </h1>
 
             <p
@@ -107,7 +107,7 @@ export default function Home() {
                 maxWidth: "760px",
               }}
             >
-              If you are producing but feel constrained by your platform, your geography, or the way you are being managed, this is worth a conversation.
+              If you're producing but feel limited by your platform, your geography, or how you're being managed, it's worth a conversation.
             </p>
 
             <p
@@ -119,7 +119,7 @@ export default function Home() {
                 maxWidth: "760px",
               }}
             >
-              This is a platform built for self driven loan officers who want freedom to operate, leadership access when it matters, and room to build something bigger without unnecessary friction.
+              This is a platform for loan officers who want autonomy, real access to decision makers, and room to build something bigger without unnecessary friction.
             </p>
 
             <div style={{ marginBottom: "34px" }}>
@@ -182,7 +182,7 @@ export default function Home() {
                   More ways to win
                 </div>
                 <div style={{ color: "rgba(255,255,255,0.8)", lineHeight: 1.6 }}>
-                  Stronger products and support to help you solve more borrower scenarios.
+                  More ways to win deals other lenders cannot get done.
                 </div>
               </div>
             </div>
@@ -229,7 +229,7 @@ export default function Home() {
                 margin: "0 0 16px",
               }}
             >
-              A better platform should help you grow faster, compete harder, and enjoy the business more.
+              A better platform should help you grow faster, compete harder, and actually enjoy the business again.
             </h2>
 
             <p
@@ -409,7 +409,7 @@ export default function Home() {
                 margin: "0 0 16px",
               }}
             >
-              Let’s talk about what you want next.
+              Let’s talk about what you want to build next.
             </h2>
 
             <p
@@ -423,12 +423,42 @@ export default function Home() {
             >
               If autonomy, unlimited growth, and a stronger platform matter to you, let’s have a quick and confidential conversation.
             </p>
+  <div style={{ marginBottom: "12px" }}>
+  <a
+    href="https://calendly.com/chrisdickie-changemortgage"
+    target="_blank"
+    rel="noopener noreferrer"
+    style={lightButton}
+  >
+    Schedule time on my calendar
+  </a>
+</div>
 
-            <a href="mailto:cdickie@changemtg.com" style={lightButton}>
-              Let’s have a quick, confidential conversation
-            </a>
-          </div>
-        </div>
+<p
+  style={{
+    fontSize: "14px",
+    color: "#64748b",
+    marginBottom: "14px",
+  }}
+>
+  Prefer email? Reach me directly at{" "}
+  <a
+    href="mailto:cdickie@changemtg.com"
+    style={{ color: "#111827", fontWeight: 600, textDecoration: "none" }}
+  >
+    cdickie@changemtg.com
+  </a>
+</p>
+
+<p
+  style={{
+    fontSize: "14px",
+    color: "#64748b",
+    marginTop: "10px",
+  }}
+>
+  No pressure. Just a real conversation.
+</p>
       </section>
     </main>
   );
