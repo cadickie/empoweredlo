@@ -1,6 +1,6 @@
 export const metadata = {
   title: "EmpoweredLO",
-  description: "Recruiting platform for loan officers"
+  description: "EmpoweredLO website",
 };
 
 export default function RootLayout({ children }) {
