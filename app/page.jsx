@@ -123,9 +123,14 @@ export default function Home() {
             </p>
 
             <div style={{ marginBottom: "34px" }}>
-              <a href="mailto:cdickie@changemtg.com" style={buttonPrimary}>
-                Schedule a confidential call
-              </a>
+              <a
+  href="https://calendly.com/chrisdickie-changemortgage"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={buttonPrimary}
+>
+  Schedule a confidential call
+</a>
               <a href="#why" style={buttonSecondary}>
                 See what makes this different
               </a>
