@@ -21,19 +21,17 @@ export default function Home() {
     boxShadow: "0 14px 40px rgba(15, 23, 42, 0.22)",
   };
 
- const buttonPrimary = {
-  display: "inline-block",
-  background: "rgba(255,255,255,0.10)",
-  color: "#ffffff",
-  padding: "14px 22px",
-  borderRadius: "12px",
-  textDecoration: "none",
-  fontWeight: 600,
-  border: "1px solid rgba(255,255,255,0.18)",
-  backdropFilter: "blur(6px)",
-  marginRight: "12px",
-  marginBottom: "12px",
-};
+  const buttonPrimary = {
+    display: "inline-block",
+    background: "rgba(255,255,255,0.10)",
+    color: "#ffffff",
+    padding: "14px 22px",
+    borderRadius: "12px",
+    textDecoration: "none",
+    fontWeight: 600,
+    border: "1px solid rgba(255,255,255,0.18)",
+    backdropFilter: "blur(6px)",
+  };
 
   const buttonSecondary = {
     display: "inline-block",
@@ -44,7 +42,6 @@ export default function Home() {
     textDecoration: "none",
     fontWeight: 600,
     border: "1px solid rgba(255,255,255,0.18)",
-    marginBottom: "12px",
   };
 
   const lightButton = {
@@ -65,188 +62,148 @@ export default function Home() {
         background: "#f8fafc",
       }}
     >
-      <div
-  style={{
-    position: "sticky",
-    top: "14px",
-    zIndex: 1000,
-    display: "flex",
-    justifyContent: "flex-end",
-    padding: "14px 24px 0",
-    pointerEvents: "none",
-  }}
->
-  <a
-    href="https://calendly.com/chrisdickie-changemortgage"
-    target="_blank"
-    rel="noopener noreferrer"
-    style={{
-      background: "#0f172a",
-      color: "#ffffff",
-      textDecoration: "none",
-      fontWeight: 600,
-      padding: "12px 18px",
-      borderRadius: "999px",
-      boxShadow: "0 10px 24px rgba(15, 23, 42, 0.22)",
-      border: "1px solid rgba(255,255,255,0.12)",
-      pointerEvents: "auto",
-    }}
-  >
-    Schedule a confidential call
-  </a>
-</div>
       <section
         style={{
           background: "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
           color: "#ffffff",
-          padding: "84px 0 76px",
+          padding: "96px 0 76px",
         }}
       >
         <div style={sectionStyle}>
-          <div style={{ maxWidth: "820px" }}>
-            <div style={{ maxWidth: "760px" }}>
-  <div
-    style={{
-      display: "inline-block",
-      padding: "10px 16px",
-      borderRadius: "999px",
-      background: "rgba(255,255,255,0.06)",
-      border: "1px solid rgba(255,255,255,0.16)",
-      color: "#ffffff",
-      fontSize: "13px",
-      fontWeight: 600,
-      letterSpacing: "0.04em",
-      textTransform: "uppercase",
-      marginBottom: "22px",
-    }}
-  >
-    Become an Empowered Loan Officer
-  </div>
+          <div style={{ maxWidth: "760px" }}>
+            <div
+              style={{
+                display: "inline-block",
+                padding: "10px 16px",
+                borderRadius: "999px",
+                background: "rgba(255,255,255,0.06)",
+                border: "1px solid rgba(255,255,255,0.16)",
+                color: "#ffffff",
+                fontSize: "13px",
+                fontWeight: 600,
+                letterSpacing: "0.04em",
+                marginBottom: "22px",
+              }}
+            >
+              Become an Empowered Loan Officer
+            </div>
 
-  <h1
-    style={{
-      fontSize: "54px",
-      lineHeight: 1.08,
-      margin: "0 0 18px",
-      fontWeight: 700,
-      maxWidth: "760px",
-    }}
-  >
-    Built for loan officers who want more control and more room to grow.
-  </h1>
+            <h1
+              style={{
+                fontSize: "54px",
+                lineHeight: 1.08,
+                margin: "0 0 18px",
+                fontWeight: 700,
+                maxWidth: "760px",
+              }}
+            >
+              Built for loan officers who want more control and more room to grow.
+            </h1>
 
-  <p
-    style={{
-      fontSize: "21px",
-      lineHeight: 1.7,
-      color: "rgba(255,255,255,0.88)",
-      margin: "0 0 14px",
-      maxWidth: "720px",
-    }}
-  >
-    If you're producing but feel limited by your platform, your geography, or how you're being managed, it's worth a conversation.
-  </p>
+            <p
+              style={{
+                fontSize: "21px",
+                lineHeight: 1.7,
+                color: "rgba(255,255,255,0.88)",
+                margin: "0 0 14px",
+                maxWidth: "720px",
+              }}
+            >
+              If you're producing but feel limited by your platform, your geography, or how you're being managed, it's worth a conversation.
+            </p>
 
-  <p
-    style={{
-      fontSize: "17px",
-      lineHeight: 1.7,
-      color: "rgba(255,255,255,0.72)",
-      margin: "0 0 30px",
-      maxWidth: "700px",
-    }}
-  >
-    The right platform doesn’t just support you. It changes what you’re capable of.
-  </p>
+            <p
+              style={{
+                fontSize: "17px",
+                lineHeight: 1.7,
+                color: "rgba(255,255,255,0.72)",
+                margin: "0 0 30px",
+                maxWidth: "700px",
+              }}
+            >
+              The right platform doesn’t just support you. It changes what you’re capable of.
+            </p>
 
-  <div
-    style={{
-      display: "flex",
-      flexWrap: "wrap",
-      gap: "14px",
-      marginBottom: "34px",
-    }}
-  >
-    <a
-      href="https://calendly.com/chrisdickie-changemortgage"
-      target="_blank"
-      rel="noopener noreferrer"
-      style={{
-        ...buttonPrimary,
-        marginRight: 0,
-        marginBottom: 0,
-      }}
-    >
-      Schedule a confidential conversation
-    </a>
+            <div
+              style={{
+                display: "flex",
+                flexWrap: "wrap",
+                gap: "14px",
+                marginBottom: "34px",
+              }}
+            >
+              <a
+                href="https://calendly.com/chrisdickie-changemortgage"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={buttonPrimary}
+              >
+                Schedule a confidential conversation
+              </a>
 
-    <a
-      href="#why"
-      style={{
-        ...buttonSecondary,
-        marginBottom: 0,
-      }}
-    >
-      See what makes this different
-    </a>
-  </div>
+              <a href="#why" style={buttonSecondary}>
+                See what makes this different
+              </a>
+            </div>
 
-<div
-  style={{
-    display: "grid",
-    gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
-    gap: "16px",
-  }}
->
-  <div
-    style={{
-      background: "rgba(255,255,255,0.08)",
-      padding: "18px",
-      borderRadius: "16px",
-      border: "1px solid rgba(255,255,255,0.12)",
-    }}
-  >
-    <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-      Real autonomy
-    </div>
-    <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
-      No micromanaging. Built for serious producers who want room to operate.
-    </div>
-  </div>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
+                gap: "16px",
+              }}
+            >
+              <div
+                style={{
+                  background: "rgba(255,255,255,0.08)",
+                  padding: "18px",
+                  borderRadius: "16px",
+                  border: "1px solid rgba(255,255,255,0.12)",
+                }}
+              >
+                <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
+                  Real autonomy
+                </div>
+                <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
+                  No micromanaging. Built for serious producers who want room to operate.
+                </div>
+              </div>
 
-  <div
-    style={{
-      background: "rgba(255,255,255,0.08)",
-      padding: "18px",
-      borderRadius: "16px",
-      border: "1px solid rgba(255,255,255,0.12)",
-    }}
-  >
-    <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-      No territorial boundaries
-    </div>
-    <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
-      Go where the business is. No territory holding you back.
-    </div>
-  </div>
+              <div
+                style={{
+                  background: "rgba(255,255,255,0.08)",
+                  padding: "18px",
+                  borderRadius: "16px",
+                  border: "1px solid rgba(255,255,255,0.12)",
+                }}
+              >
+                <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
+                  No territorial boundaries
+                </div>
+                <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
+                  Go where the business is. No territory holding you back.
+                </div>
+              </div>
 
-  <div
-    style={{
-      background: "rgba(255,255,255,0.08)",
-      padding: "18px",
-      borderRadius: "16px",
-      border: "1px solid rgba(255,255,255,0.12)",
-    }}
-  >
-    <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-      More ways to win
-    </div>
-    <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
-      Access proprietary products and flexible guidelines to structure deals others can’t.
-    </div>
-  </div>
-</div>
-              </section>
+              <div
+                style={{
+                  background: "rgba(255,255,255,0.08)",
+                  padding: "18px",
+                  borderRadius: "16px",
+                  border: "1px solid rgba(255,255,255,0.12)",
+                }}
+              >
+                <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
+                  More ways to win
+                </div>
+                <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
+                  Access proprietary products and flexible guidelines to structure deals others can’t.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section style={{ padding: "34px 0 10px" }}>
         <div style={sectionStyle}>
@@ -310,21 +267,27 @@ export default function Home() {
             }}
           >
             <div style={cardStyle}>
-              <h3 style={{ margin: "0 0 12px", fontSize: "24px" }}>Freedom to build your business your way</h3>
+              <h3 style={{ margin: "0 0 12px", fontSize: "24px" }}>
+                Freedom to build your business your way
+              </h3>
               <p style={{ color: "#475569", lineHeight: 1.75, margin: 0 }}>
                 This is for loan officers who do not want to be boxed in by excessive oversight, rigid structures, or unnecessary interference.
               </p>
             </div>
 
             <div style={cardStyle}>
-              <h3 style={{ margin: "0 0 12px", fontSize: "24px" }}>Leadership access that actually matters</h3>
+              <h3 style={{ margin: "0 0 12px", fontSize: "24px" }}>
+                Leadership access that actually matters
+              </h3>
               <p style={{ color: "#475569", lineHeight: 1.75, margin: 0 }}>
                 When a deal gets complex or time matters, access matters. Real support and real decision makers make a real difference.
               </p>
             </div>
 
             <div style={cardStyle}>
-              <h3 style={{ margin: "0 0 12px", fontSize: "24px" }}>A bigger runway for growth</h3>
+              <h3 style={{ margin: "0 0 12px", fontSize: "24px" }}>
+                A bigger runway for growth
+              </h3>
               <p style={{ color: "#475569", lineHeight: 1.75, margin: 0 }}>
                 No territorial boundaries means you can build where the opportunity is, not just where someone says you are allowed to play.
               </p>
@@ -470,54 +433,54 @@ export default function Home() {
               Let’s talk about what you want to build next.
             </h2>
 
-           <p
-  style={{
-    maxWidth: "760px",
-    margin: "0 auto 28px",
-    color: "#475569",
-    lineHeight: 1.8,
-    fontSize: "18px",
-  }}
->
-  If autonomy, unlimited growth, and a stronger platform matter to you, let’s have a quick and confidential conversation.
-</p>
+            <p
+              style={{
+                maxWidth: "760px",
+                margin: "0 auto 28px",
+                color: "#475569",
+                lineHeight: 1.8,
+                fontSize: "18px",
+              }}
+            >
+              If autonomy, unlimited growth, and a stronger platform matter to you, let’s have a quick and confidential conversation.
+            </p>
 
-<div style={{ marginBottom: "12px" }}>
-  <a
-    href="https://calendly.com/chrisdickie-changemortgage"
-    target="_blank"
-    rel="noopener noreferrer"
-    style={lightButton}
-  >
-    Schedule time on my calendar
-  </a>
-</div>
+            <div style={{ marginBottom: "12px" }}>
+              <a
+                href="https://calendly.com/chrisdickie-changemortgage"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={lightButton}
+              >
+                Schedule time on my calendar
+              </a>
+            </div>
 
-<p
-  style={{
-    fontSize: "14px",
-    color: "#64748b",
-    marginBottom: "14px",
-  }}
->
-  Prefer email? Reach me directly at{" "}
-  <a
-    href="mailto:cdickie@changemtg.com"
-    style={{ color: "#111827", fontWeight: 600, textDecoration: "none" }}
-  >
-    cdickie@changemtg.com
-  </a>
-</p>
+            <p
+              style={{
+                fontSize: "14px",
+                color: "#64748b",
+                marginBottom: "14px",
+              }}
+            >
+              Prefer email? Reach me directly at{" "}
+              <a
+                href="mailto:cdickie@changemtg.com"
+                style={{ color: "#111827", fontWeight: 600, textDecoration: "none" }}
+              >
+                cdickie@changemtg.com
+              </a>
+            </p>
 
-<p
-  style={{
-    fontSize: "14px",
-    color: "#64748b",
-    marginTop: "10px",
-  }}
->
-  No pressure. Just a real conversation.
-</p>
+            <p
+              style={{
+                fontSize: "14px",
+                color: "#64748b",
+                marginTop: "10px",
+              }}
+            >
+              No pressure. Just a real conversation.
+            </p>
           </div>
         </div>
       </section>
