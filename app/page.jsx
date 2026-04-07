@@ -412,18 +412,19 @@ export default function Home() {
               Let’s talk about what you want to build next.
             </h2>
 
-            <p
-              style={{
-                maxWidth: "760px",
-                margin: "0 auto 28px",
-                color: "#475569",
-                lineHeight: 1.8,
-                fontSize: "18px",
-              }}
-            >
-              If autonomy, unlimited growth, and a stronger platform matter to you, let’s have a quick and confidential conversation.
-            </p>
-  <div style={{ marginBottom: "12px" }}>
+           <p
+  style={{
+    maxWidth: "760px",
+    margin: "0 auto 28px",
+    color: "#475569",
+    lineHeight: 1.8,
+    fontSize: "18px",
+  }}
+>
+  If autonomy, unlimited growth, and a stronger platform matter to you, let’s have a quick and confidential conversation.
+</p>
+
+<div style={{ marginBottom: "12px" }}>
   <a
     href="https://calendly.com/chrisdickie-changemortgage"
     target="_blank"
@@ -459,7 +460,3 @@ export default function Home() {
 >
   No pressure. Just a real conversation.
 </p>
-      </section>
-    </main>
-  );
-}
