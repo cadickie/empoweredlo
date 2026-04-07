@@ -5,6 +5,13 @@ export default function Home() {
     padding: "0 24px",
   };
 
+  const heroCardStyle = {
+    background: "rgba(255,255,255,0.08)",
+    padding: "20px",
+    borderRadius: "16px",
+    border: "1px solid rgba(255,255,255,0.12)",
+  };
+
   const cardStyle = {
     background: "#ffffff",
     border: "1px solid #e5e7eb",
@@ -66,7 +73,7 @@ export default function Home() {
         style={{
           background: "linear-gradient(135deg, #0f172a 0%, #1e293b 100%)",
           color: "#ffffff",
-          padding: "96px 0 76px",
+          padding: "88px 0 76px",
         }}
       >
         <div style={sectionStyle}>
@@ -81,7 +88,7 @@ export default function Home() {
                 color: "#ffffff",
                 fontSize: "13px",
                 fontWeight: 600,
-                letterSpacing: "0.04em",
+                letterSpacing: "0.03em",
                 marginBottom: "22px",
               }}
             >
@@ -97,20 +104,9 @@ export default function Home() {
                 maxWidth: "760px",
               }}
             >
-              If you're producing but feel capped, it's not you. It's your platform.
+              If you’re producing but feel capped, it’s not you. It’s your platform.
             </h1>
-<div
-  style={{
-    fontSize: "20px",
-    fontWeight: 600,
-    marginTop: "16px",
-    marginBottom: "16px",
-    color: "rgba(255,255,255,0.9)",
-    maxWidth: "640px"
-  }}
->
-  The right platform doesn’t just support you. It changes what you’re capable of.
-</div>
+
             <p
               style={{
                 fontSize: "21px",
@@ -120,13 +116,34 @@ export default function Home() {
                 maxWidth: "720px",
               }}
             >
-              If you're producing but feel limited by your platform, your geography, or how you're being managed, it's worth a conversation.
+              If you’re producing but feel limited by your platform, your geography, or how you’re being managed, it’s worth a conversation.
             </p>
 
-           
-<p style={{ color: "rgba(255,255,255,0.6)", fontSize: "15px" }}>
-  Supporting loan officers across 48 states with direct access to underwriting and proprietary non QM products.
-</p>
+            <div
+              style={{
+                fontSize: "19px",
+                fontWeight: 500,
+                lineHeight: 1.6,
+                color: "rgba(255,255,255,0.92)",
+                margin: "0 0 16px",
+                maxWidth: "700px",
+              }}
+            >
+              The right platform doesn’t just support you. It changes what you’re capable of.
+            </div>
+
+            <p
+              style={{
+                color: "rgba(255,255,255,0.68)",
+                fontSize: "15px",
+                lineHeight: 1.7,
+                margin: "0 0 28px",
+                maxWidth: "720px",
+              }}
+            >
+              Supporting loan officers across 48 states with direct access to underwriting and proprietary non QM products.
+            </p>
+
             <div
               style={{
                 display: "flex",
@@ -149,61 +166,40 @@ export default function Home() {
               </a>
             </div>
 
-     <div
-  style={{
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
-    gap: "16px",
-  }}
->
-  <div
-    style={{
-      background: "rgba(255,255,255,0.08)",
-      padding: "18px",
-      borderRadius: "16px",
-      border: "1px solid rgba(255,255,255,0.12)",
-    }}
-  >
-    <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-      Real autonomy
-    </div>
-    <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
-      No micromanaging. Built for serious producers who want room to operate.
-    </div>
-  </div>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+                gap: "16px",
+              }}
+            >
+              <div style={heroCardStyle}>
+                <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "8px" }}>
+                  Real autonomy
+                </div>
+                <div style={{ color: "rgba(255,255,255,0.84)", lineHeight: 1.65 }}>
+                  No micromanaging. Built for serious producers who want room to operate.
+                </div>
+              </div>
 
-  <div
-    style={{
-      background: "rgba(255,255,255,0.08)",
-      padding: "18px",
-      borderRadius: "16px",
-      border: "1px solid rgba(255,255,255,0.12)",
-    }}
-  >
-    <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-      No territorial boundaries
-    </div>
-    <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
-      Go where the business is. No territory holding you back.
-    </div>
-  </div>
+              <div style={heroCardStyle}>
+                <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "8px" }}>
+                  No territorial boundaries
+                </div>
+                <div style={{ color: "rgba(255,255,255,0.84)", lineHeight: 1.65 }}>
+                  Go where the business is. No territory holding you back.
+                </div>
+              </div>
 
-  <div
-    style={{
-      background: "rgba(255,255,255,0.08)",
-      padding: "18px",
-      borderRadius: "16px",
-      border: "1px solid rgba(255,255,255,0.12)",
-    }}
-  >
-    <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-      More ways to win
-    </div>
-    <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
-      Access proprietary products and flexible guidelines to structure deals others can’t.
-    </div>
-  </div>
-</div>
+              <div style={heroCardStyle}>
+                <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "8px" }}>
+                  More ways to win
+                </div>
+                <div style={{ color: "rgba(255,255,255,0.84)", lineHeight: 1.65 }}>
+                  Access proprietary products and flexible guidelines to structure deals others can’t.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -212,7 +208,7 @@ export default function Home() {
         <div style={sectionStyle}>
           <p
             style={{
-              maxWidth: "860px",
+              maxWidth: "880px",
               margin: "0 auto",
               textAlign: "center",
               fontSize: "18px",
@@ -227,7 +223,7 @@ export default function Home() {
 
       <section id="why" style={{ padding: "60px 0 28px" }}>
         <div style={sectionStyle}>
-          <div style={{ maxWidth: "780px", marginBottom: "34px" }}>
+          <div style={{ maxWidth: "800px", marginBottom: "34px" }}>
             <div
               style={{
                 color: "#475569",
@@ -400,10 +396,10 @@ export default function Home() {
 
               <div>
                 <p style={{ margin: "0 0 12px", lineHeight: 1.75, color: "#334155" }}>
-                  Leaders who want to build beyond artificial geographic boundaries.
+                  Leaders who want to build beyond geographic limits.
                 </p>
                 <p style={{ margin: 0, lineHeight: 1.75, color: "#334155" }}>
-                  People who value support, but do not want to be micromanaged.
+                  People who value support, but don’t want to be managed.
                 </p>
               </div>
             </div>
