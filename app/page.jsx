@@ -198,54 +198,51 @@ export default function Home() {
     gap: "16px",
   }}
 >
-    <div
-      style={{
-        background: "rgba(255,255,255,0.08)",
-        padding: "18px",
-        borderRadius: "16px",
-        border: "1px solid rgba(255,255,255,0.12)",
-      }}
-    >
-      <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-        Real autonomy
-      </div>
-      <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
-        No micromanaging. Built for serious producers who want room to operate.
-      </div>
+  <div
+    style={{
+      background: "rgba(255,255,255,0.08)",
+      padding: "18px",
+      borderRadius: "16px",
+      border: "1px solid rgba(255,255,255,0.12)",
+    }}
+  >
+    <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
+      Real autonomy
     </div>
-
-    <div
-      style={{
-        background: "rgba(255,255,255,0.08)",
-        padding: "18px",
-        borderRadius: "16px",
-        border: "1px solid rgba(255,255,255,0.12)",
-      }}
-    >
-      <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-        No territorial boundaries
-      </div>
-      <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
-        Go where the business is. No territory holding you back.
-      </div>
+    <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
+      No micromanaging. Built for serious producers who want room to operate.
     </div>
   </div>
-    </div>
 
-    <div
-      style={{
-        background: "rgba(255,255,255,0.08)",
-        padding: "18px",
-        borderRadius: "16px",
-        border: "1px solid rgba(255,255,255,0.12)",
-      }}
-    >
-      <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-        More ways to win
-      </div>
-      <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
-        Access proprietary products and flexible guidelines to structure deals others can’t.
-      </div>
+  <div
+    style={{
+      background: "rgba(255,255,255,0.08)",
+      padding: "18px",
+      borderRadius: "16px",
+      border: "1px solid rgba(255,255,255,0.12)",
+    }}
+  >
+    <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
+      No territorial boundaries
+    </div>
+    <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
+      Go where the business is. No territory holding you back.
+    </div>
+  </div>
+
+  <div
+    style={{
+      background: "rgba(255,255,255,0.08)",
+      padding: "18px",
+      borderRadius: "16px",
+      border: "1px solid rgba(255,255,255,0.12)",
+    }}
+  >
+    <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
+      More ways to win
+    </div>
+    <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
+      Access proprietary products and flexible guidelines to structure deals others can’t.
     </div>
   </div>
 </div>
