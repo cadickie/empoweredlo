@@ -227,8 +227,7 @@ export default function Home() {
     </div>
     <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
       Go where the business is. No territory holding you back.
-    </div>
-  </div>
+  
 
   <div
     style={{
