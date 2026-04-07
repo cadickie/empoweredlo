@@ -204,7 +204,7 @@ export default function Home() {
                   No territorial boundaries
                 </div>
                 <div style={{ color: "rgba(255,255,255,0.8)", lineHeight: 1.6 }}>
-                  Unlimited room to grow your business without artificial limits.
+                  Unlimited room to grow your business. No territory holding you back.
                 </div>
               </div>
 
@@ -220,7 +220,7 @@ export default function Home() {
                   More ways to win
                 </div>
                 <div style={{ color: "rgba(255,255,255,0.8)", lineHeight: 1.6 }}>
-                  More ways to win deals other lenders cannot get done.
+                  Access proprietary products and flexible guidelines to structure deals others can’t.
                 </div>
               </div>
             </div>
