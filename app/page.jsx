@@ -102,130 +102,149 @@ export default function Home() {
       >
         <div style={sectionStyle}>
           <div style={{ maxWidth: "820px" }}>
-            <div
-  style={{
-    display: "inline-block",
-    padding: "10px 16px",
-    borderRadius: "999px",
-    background: "rgba(255,255,255,0.06)",
-    border: "1px solid rgba(255,255,255,0.18)",
-    color: "#ffffff",
-    fontSize: "13px",
-    fontWeight: 600,
-    letterSpacing: "0.04em",
-    textTransform: "uppercase",
-    marginBottom: "22px",
-  }}
->
-  BUILT TO CREATE EMPOWERED LOAN OFFICERS
+            <div style={{ maxWidth: "760px" }}>
+  <div
+    style={{
+      display: "inline-block",
+      padding: "10px 16px",
+      borderRadius: "999px",
+      background: "rgba(255,255,255,0.06)",
+      border: "1px solid rgba(255,255,255,0.16)",
+      color: "#ffffff",
+      fontSize: "13px",
+      fontWeight: 600,
+      letterSpacing: "0.04em",
+      textTransform: "uppercase",
+      marginBottom: "22px",
+    }}
+  >
+    Built to create empowered loan officers
+  </div>
+
+  <h1
+    style={{
+      fontSize: "54px",
+      lineHeight: 1.08,
+      margin: "0 0 18px",
+      fontWeight: 700,
+      maxWidth: "760px",
+    }}
+  >
+    Built for loan officers who want more control and more room to grow.
+  </h1>
+
+  <p
+    style={{
+      fontSize: "21px",
+      lineHeight: 1.7,
+      color: "rgba(255,255,255,0.88)",
+      margin: "0 0 14px",
+      maxWidth: "720px",
+    }}
+  >
+    If you're producing but feel limited by your platform, your geography, or how you're being managed, it's worth a conversation.
+  </p>
+
+  <p
+    style={{
+      fontSize: "17px",
+      lineHeight: 1.7,
+      color: "rgba(255,255,255,0.72)",
+      margin: "0 0 30px",
+      maxWidth: "700px",
+    }}
+  >
+    The right platform doesn’t just support you. It changes what you’re capable of.
+  </p>
+
+  <div
+    style={{
+      display: "flex",
+      flexWrap: "wrap",
+      gap: "14px",
+      marginBottom: "34px",
+    }}
+  >
+    <a
+      href="https://calendly.com/chrisdickie-changemortgage"
+      target="_blank"
+      rel="noopener noreferrer"
+      style={{
+        ...buttonPrimary,
+        marginRight: 0,
+        marginBottom: 0,
+      }}
+    >
+      Schedule a confidential conversation
+    </a>
+
+    <a
+      href="#why"
+      style={{
+        ...buttonSecondary,
+        marginBottom: 0,
+      }}
+    >
+      See what makes this different
+    </a>
+  </div>
+
+  <div
+    style={{
+      display: "grid",
+      gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+      gap: "16px",
+    }}
+  >
+    <div
+      style={{
+        background: "rgba(255,255,255,0.08)",
+        padding: "18px",
+        borderRadius: "16px",
+        border: "1px solid rgba(255,255,255,0.12)",
+      }}
+    >
+      <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
+        Real autonomy
+      </div>
+      <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
+        No micromanaging. Built for serious producers who want room to operate.
+      </div>
+    </div>
+
+    <div
+      style={{
+        background: "rgba(255,255,255,0.08)",
+        padding: "18px",
+        borderRadius: "16px",
+        border: "1px solid rgba(255,255,255,0.12)",
+      }}
+    >
+      <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
+        No territorial boundaries
+      </div>
+      <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
+        Go where the business is. No territory holding you back.
+      </div>
+    </div>
+
+    <div
+      style={{
+        background: "rgba(255,255,255,0.08)",
+        padding: "18px",
+        borderRadius: "16px",
+        border: "1px solid rgba(255,255,255,0.12)",
+      }}
+    >
+      <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
+        More ways to win
+      </div>
+      <div style={{ color: "rgba(255,255,255,0.82)", lineHeight: 1.6 }}>
+        Access proprietary products and flexible guidelines to structure deals others can’t.
+      </div>
+    </div>
+  </div>
 </div>
-
-            <h1
-              style={{
-                fontSize: "54px",
-                lineHeight: 1.08,
-                margin: "0 0 20px",
-                fontWeight: 700,
-                maxWidth: "780px",
-              }}
-            >
-              Built for loan officers who want autonomy and the ability to grow without limits.
-            </h1>
-
-            <p
-              style={{
-                fontSize: "21px",
-                lineHeight: 1.7,
-                color: "rgba(255,255,255,0.88)",
-                margin: "0 0 18px",
-                maxWidth: "760px",
-              }}
-            >
-              If you're producing but feel limited by your platform, your geography, or how you're being managed, it's worth a conversation.
-            </p>
-
-          <p
-  style={{
-    maxWidth: "760px",
-    margin: "12px auto 32px",
-    color: "rgba(255,255,255,0.75)",
-    lineHeight: 1.7,
-    fontSize: "17px",
-  }}
->
-  The right platform doesn’t just support you. It changes what you’re capable of.
-</p>
-
-            <div style={{ marginBottom: "34px" }}>
-              <a
-  href="https://calendly.com/chrisdickie-changemortgage"
-  target="_blank"
-  rel="noopener noreferrer"
-  style={buttonPrimary}
->
-  Schedule a confidential conversation
-</a>
-              <a href="#why" style={buttonSecondary}>
-                See what makes this different
-              </a>
-            </div>
-
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(210px, 1fr))",
-                gap: "16px",
-              }}
-            >
-              <div
-                style={{
-                  background: "rgba(255,255,255,0.08)",
-                  padding: "18px",
-                  borderRadius: "16px",
-                  border: "1px solid rgba(255,255,255,0.12)",
-                }}
-              >
-                <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-                  Real autonomy
-                </div>
-                <div style={{ color: "rgba(255,255,255,0.8)", lineHeight: 1.6 }}>
-                  No micromanaging. Built for serious producers who want room to operate.
-                </div>
-              </div>
-
-              <div
-                style={{
-                  background: "rgba(255,255,255,0.08)",
-                  padding: "18px",
-                  borderRadius: "16px",
-                  border: "1px solid rgba(255,255,255,0.12)",
-                }}
-              >
-                <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-                  No territorial boundaries
-                </div>
-                <div style={{ color: "rgba(255,255,255,0.8)", lineHeight: 1.6 }}>
-                  Unlimited room to grow your business. No territory holding you back.
-                </div>
-              </div>
-
-              <div
-                style={{
-                  background: "rgba(255,255,255,0.08)",
-                  padding: "18px",
-                  borderRadius: "16px",
-                  border: "1px solid rgba(255,255,255,0.12)",
-                }}
-              >
-                <div style={{ fontSize: "21px", fontWeight: 700, marginBottom: "6px" }}>
-                  More ways to win
-                </div>
-                <div style={{ color: "rgba(255,255,255,0.8)", lineHeight: 1.6 }}>
-                  Access proprietary products and flexible guidelines to structure deals others can’t.
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </section>
 
