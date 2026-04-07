@@ -101,8 +101,8 @@ export default function Home() {
             </h1>
 <div
   style={{
-    fontSize: "18px",
-    fontWeight: 500,
+    fontSize: "20px",
+    fontWeight: 600,
     marginTop: "16px",
     marginBottom: "16px",
     color: "rgba(255,255,255,0.9)",
