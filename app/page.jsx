@@ -129,7 +129,7 @@ export default function Home() {
   rel="noopener noreferrer"
   style={buttonPrimary}
 >
-  Schedule a confidential call
+  Schedule a confidential conversation
 </a>
               <a href="#why" style={buttonSecondary}>
                 See what makes this different
