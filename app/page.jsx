@@ -92,7 +92,7 @@ export default function Home() {
       pointerEvents: "auto",
     }}
   >
-    Schedule a confidential conversation
+    Schedule a confidential call
   </a>
 </div>
       <section
