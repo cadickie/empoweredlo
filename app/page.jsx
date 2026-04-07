@@ -144,17 +144,17 @@ export default function Home() {
               If you're producing but feel limited by your platform, your geography, or how you're being managed, it's worth a conversation.
             </p>
 
-            <p
-              style={{
-                fontSize: "18px",
-                lineHeight: 1.7,
-                color: "rgba(255,255,255,0.76)",
-                margin: "0 0 34px",
-                maxWidth: "760px",
-              }}
-            >
-              This is a platform for loan officers who want autonomy, real access to decision makers, and room to build something bigger without unnecessary friction.
-            </p>
+           <p
+  style={{
+    maxWidth: "760px",
+    margin: "0 auto 28px",
+    color: "#475569",
+    lineHeight: 1.8,
+    fontSize: "18px",
+  }}
+>
+  The right platform doesn’t just support you. It changes what you’re capable of.
+</p>
 
             <div style={{ marginBottom: "34px" }}>
               <a
