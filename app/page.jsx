@@ -123,17 +123,7 @@ export default function Home() {
               If you're producing but feel limited by your platform, your geography, or how you're being managed, it's worth a conversation.
             </p>
 
-            <p
-              style={{
-                fontSize: "17px",
-                lineHeight: 1.7,
-                color: "rgba(255,255,255,0.72)",
-                margin: "0 0 30px",
-                maxWidth: "700px",
-              }}
-            >
-              The right platform doesn’t just support you. It changes what you’re capable of.
-            </p>
+           
 <p style={{ color: "rgba(255,255,255,0.6)", fontSize: "15px" }}>
   Supporting loan officers across 48 states with direct access to underwriting and proprietary non QM products.
 </p>
