@@ -116,7 +116,7 @@ export default function Home() {
                 maxWidth: "720px",
               }}
             >
-              If you’re producing but feel limited by your platform, your geography, or how you’re being managed, it’s worth a conversation.
+              The right platform doesn’t just support you. It expands what you’re capable of.
             </p>
 
             <div
@@ -129,7 +129,7 @@ export default function Home() {
                 maxWidth: "700px",
               }}
             >
-              The right platform doesn’t just support you. It changes what you’re capable of.
+              If something feels in the way, it usually is. Platform, geography, or how you’re being managed.
             </div>
 
             <p
