@@ -460,6 +460,7 @@ export default function Home() {
 >
   No pressure. Just a real conversation.
 </p>
+          </div>
         </div>
       </section>
     </main>
