@@ -97,7 +97,7 @@ export default function Home() {
                 maxWidth: "760px",
               }}
             >
-              Built for loan officers who want more control and more room to grow.
+              If you're producing but feel capped, it's not you. It's your platform.
             </h1>
 
             <p
@@ -140,7 +140,7 @@ export default function Home() {
                 rel="noopener noreferrer"
                 style={buttonPrimary}
               >
-                Schedule a confidential conversation
+                Schedule a confidential call
               </a>
 
               <a href="#why" style={buttonSecondary}>
@@ -246,7 +246,7 @@ export default function Home() {
                 margin: "0 0 16px",
               }}
             >
-              A better platform should help you grow faster, compete harder, and actually enjoy the business again.
+              A better platform should help you grow faster, compete harder, and enjoy the business again.
             </h2>
 
             <p
@@ -329,7 +329,7 @@ export default function Home() {
                     margin: "0 0 16px",
                   }}
                 >
-                  This is built for serious loan officers who want room to produce and room to grow.
+                  Built for serious loan officers who want room to produce and room to grow.
                 </h2>
 
                 <p
