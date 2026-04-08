@@ -53,7 +53,7 @@ export default function Home() {
     fontSize: "20px",
     lineHeight: 1.7,
     color: "rgba(255,255,255,0.7)",
-    marginTop: "14px",
+    marginTop: "18px", fontweight: 400,
   }}
 >
   This is where the Empowered Loan Officer operates.
