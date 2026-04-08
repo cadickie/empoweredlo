@@ -48,7 +48,16 @@ export default function Home() {
           <p style={{ fontSize: "20px", lineHeight: 1.7, marginBottom: "12px", opacity: 0.9 }}>
             The right platform doesn’t just support you. It expands what you’re capable of.
           </p>
-
+<p
+  style={{
+    fontSize: "16px",
+    lineHeight: 1.6,
+    color: "rgba(255,255,255,0.7)",
+    marginTop: "14px",
+  }}
+>
+  This is where the Empowered Loan Officer operates.
+</p>
           <p style={{ fontSize: "18px", lineHeight: 1.7, marginBottom: "12px", opacity: 0.85 }}>
             If something feels in the way, it usually is. Guidelines, pricing, territory, support, or decision making.
           </p>
