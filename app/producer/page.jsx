@@ -50,8 +50,8 @@ export default function Home() {
           </p>
 <p
   style={{
-    fontSize: "16px",
-    lineHeight: 1.6,
+    fontSize: "20px",
+    lineHeight: 1.7,
     color: "rgba(255,255,255,0.7)",
     marginTop: "14px",
   }}
