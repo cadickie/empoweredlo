@@ -28,29 +28,43 @@ export default function LeaderPage() {
 
   return (
     <main style={{ fontFamily: "Arial, sans-serif" }}>
-      
-      {/* HERO */}
       <section style={darkSection}>
         <div style={section}>
           <h1 style={{ fontSize: "42px", lineHeight: 1.2, marginBottom: "16px" }}>
-            If you’re producing and trying to build a team, you should not feel boxed in
+            If you’re leading a team, you should not feel limited in what you can build
           </h1>
 
-          <p style={{ fontSize: "20px", lineHeight: 1.7, marginBottom: "12px", opacity: 0.9 }}>
-            At a certain point, it’s no longer about your production. It’s about what you’re able to build.
+          <p style={{ fontSize: "20px", lineHeight: 1.7, marginBottom: "10px", opacity: 0.9 }}>
+            At a certain point, it stops being about your production.
           </p>
 
-          <p style={{ fontSize: "18px", lineHeight: 1.7, marginBottom: "24px", opacity: 0.85 }}>
+          <p style={{ fontSize: "20px", lineHeight: 1.7, marginBottom: "10px", opacity: 0.9 }}>
+            It becomes about what you’re able to build and who you can build it with.
+          </p>
+
+          <p style={{ fontSize: "20px", lineHeight: 1.7, marginBottom: "20px", opacity: 0.9 }}>
             If your platform is limiting that, it’s a problem worth solving.
           </p>
 
-          <a href="https://calendly.com/chrisdickie-changemortgage" target="_blank" style={buttonPrimary}>
-            Schedule a confidential conversation
+          <p style={{ fontSize: "17px", lineHeight: 1.7, marginBottom: "28px", opacity: 0.75, maxWidth: "760px" }}>
+            I work closely with producing leaders and team builders across multiple markets who are actively solving this exact problem right now.
+          </p>
+
+          <a
+            href="https://calendly.com/chrisdickie-changemortgage"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={buttonPrimary}
+          >
+            Let’s talk through what you want to build
           </a>
+
+          <p style={{ fontSize: "14px", marginTop: "14px", opacity: 0.7 }}>
+            No pressure. Just a real conversation.
+          </p>
         </div>
       </section>
 
-      {/* REALITY */}
       <section style={lightSection}>
         <div style={section}>
           <h2 style={{ fontSize: "30px", marginBottom: "24px" }}>
@@ -73,7 +87,6 @@ export default function LeaderPage() {
         </div>
       </section>
 
-      {/* SHIFT */}
       <section style={lightSection}>
         <div style={section}>
           <h2 style={{ fontSize: "30px", marginBottom: "24px" }}>
@@ -92,7 +105,6 @@ export default function LeaderPage() {
         </div>
       </section>
 
-      {/* BUILD */}
       <section style={lightSection}>
         <div style={section}>
           <h2 style={{ fontSize: "30px", marginBottom: "20px" }}>
@@ -109,7 +121,6 @@ export default function LeaderPage() {
         </div>
       </section>
 
-      {/* YOUR ROLE */}
       <section style={lightSection}>
         <div style={section}>
           <h2 style={{ fontSize: "30px", marginBottom: "20px" }}>
@@ -122,23 +133,30 @@ export default function LeaderPage() {
         </div>
       </section>
 
-      {/* CTA */}
       <section style={darkSection}>
         <div style={section}>
           <h2 style={{ fontSize: "32px", marginBottom: "16px" }}>
             If this sounds like what you’ve been looking for, let’s talk
           </h2>
 
-          <p style={{ fontSize: "18px", marginBottom: "24px", opacity: 0.85 }}>
-            No pressure. Just a real conversation about what you want to build and whether this is the right platform for it.
+          <p style={{ fontSize: "18px", marginBottom: "24px", opacity: 0.85, maxWidth: "760px" }}>
+            Let’s talk through what you want to build and whether there is a better way to do it.
           </p>
 
-          <a href="https://calendly.com/chrisdickie-changemortgage" target="_blank" style={buttonPrimary}>
-            Schedule time
+          <a
+            href="https://calendly.com/chrisdickie-changemortgage"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={buttonPrimary}
+          >
+            Let’s talk through what you want to build
           </a>
+
+          <p style={{ fontSize: "14px", marginTop: "14px", opacity: 0.7 }}>
+            No pressure. Just a real conversation.
+          </p>
         </div>
       </section>
-
     </main>
   );
 }
