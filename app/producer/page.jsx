@@ -68,7 +68,7 @@ export default function Home() {
 
           <div style={{ display: "flex", gap: "12px", flexWrap: "wrap" }}>
             <a href="https://calendly.com/chrisdickie-changemortgage" target="_blank" style={buttonPrimary}>
-              Schedule a confidential call
+              Schedule a growth strategy call
             </a>
 
             <a href="#pain" style={buttonSecondary}>
@@ -165,7 +165,7 @@ export default function Home() {
           </p>
 
           <a href="https://calendly.com/chrisdickie-changemortgage" target="_blank" style={buttonPrimary}>
-            Schedule time on my calendar
+            Let's talk
           </a>
         </div>
       </section>
